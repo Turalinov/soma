@@ -41,9 +41,372 @@
     <div class="wrapper__content">
       <!-- перечисливаем все компоненты -->
       <header class="header">
-  header
-</header>
+  <div class="container">
 
+    <!-- logo -->
+    <div class="header__logo logo">
+      <a href="index.html" class="logo__link">
+        <picture>
+          <source srcset="img/logo-mobile.svg" media="(max-width: 992px)">
+          <img src="img/logo.svg" alt="Soma" class="logo__img" width="245" height="49">
+        </picture>
+      </a>
+    </div>
+
+
+    <!-- menu dropdown -->
+    <div class="header__dropdown">
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+
+          <li class="menu__item">
+            <a href="about.html" class="menu__link">
+              À La clinique
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="/#needs" class="menu__link">
+              Vos besoins
+            </a>
+          </li>
+
+          <li class="menu__item menu-item-has-children">
+            <a href="#" class="menu__link">
+              Nos traitements
+            </a>
+
+            <ul class="sub-menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 1
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 2
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 3
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 4
+                </a>
+              </li>
+            </ul>
+
+          </li>
+          <li class="menu__item">
+            <a href="/blog.html" class="menu__link">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a href="/tarifs.html" class="menu__link">Tarifs</a>
+          </li>
+          <li class="menu__item">
+            <a href="/contact.html" class="menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- menu dropdown end  -->
+
+    <!-- header__toggle  -->
+    <div class="header__toggle toggle">
+      <button class="toggle__inner">
+        скрыть меню
+        <span></span>
+      </button>
+    </div>
+
+    <!-- btns -->
+    <div class="header__btns">
+      <button class="btn header__btn">
+        Demander un RDV
+      </button>
+    </div>
+
+  </div>
+</header>
+      <section class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <h1 class="hero__title">
+        Révéler votre beauté, en restant fidèle à vous-même
+      </h1>
+      <div class="hero__desc">
+        Chez <b>SOMA</b>, nous proposons des soins esthétiques personnalisés, conçus pour accompagner chaque personne
+        dans sa démarche de bien-être. Notre expertise médicale s’allie à <b>une écoute attentive</b>, dans un cadre sûr
+        et bienveillant.
+      </div>
+      <button class="btn hero__btn">
+        Découvrir notre approche
+      </button>
+      <div class="hero__bullets">
+        <div class="hero__bullet">
+          Approuvé par les autorités
+        </div>
+        <div class="hero__bullet">
+          Traitement sécurisé
+        </div>
+        <div class="hero__bullet">
+          Clinique agréée
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__bg-mobile">
+    <div class="hero__bullets">
+      <div class="hero__bullet">
+        Approuvé par les autorités
+      </div>
+      <div class="hero__bullet">
+        Traitement sécurisé
+      </div>
+      <div class="hero__bullet">
+        Clinique agréée
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="support">
+  <div class="container">
+    <div class="support__wrap">
+      <!-- left  -->
+      <div class="support__left">
+        <img src="img/support-left.png" width="434" height="234">
+      </div>
+      <!-- right  -->
+      <div class="support__right">
+        <div class="support__speech">
+          <span>«</span> <b>Chaque</b> patient·e est unique. Notre approche médicale vise à <b>révéler la beauté</b>
+          propre à
+          chacun·e,
+          sans jamais
+          la
+          dénaturer. <b>Ce n’est pas un changement :</b> c’est un accompagnement. <span>»</span>
+        </div>
+        <div class="support__signature"><b>Dr. Jonathan RAUSKY</b>, chirurgien esthétique</div>
+
+        <div class="support__right-img">
+          <img src="img/support-right.png" width="242" height="117">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="operations">
+  <div class="container">
+    <h2 class="operations__title">
+      <span>
+        Des soins esthétiques
+      </span>
+      <span>
+        médicaux adaptés à vos
+      </span>
+      <span>
+        <span class="uniq">besoins</span>
+        spécifiques
+      </span>
+    </h2>
+    <ul class="operations__list">
+      <!-- single -->
+      <li class="operations__item">
+        <!-- top  -->
+        <div class="operations__top">
+          <!-- number  -->
+          <div class="operations__number">
+            <span>01</span>
+            <span></span>
+          </div>
+          <!-- title  -->
+          <h3 class="operations__subtitle">Acide hyaluronique</h3>
+          <div class="operations__desc">
+            C'est un peu plus efficace en injection qu'en creme
+          </div>
+          <!-- list -->
+          <ul class="operations__links">
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>
+                  Cernes creux, sillon nasogénien, plis d’amertume
+                </span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Lèvres fines ou plates</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Menton fuyant, joues creusées, jawline</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>
+                  Rides profondes et cassures cutanées
+                </span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>
+                  et d’autres
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- bottom  -->
+        <div class="operations__bottom">
+          <a href="#" class="operations__btn">En savoir plus</a>
+        </div>
+      </li>
+      <!-- single -->
+      <li class="operations__item">
+        <!-- top  -->
+        <div class="operations__top">
+          <!-- number  -->
+          <div class="operations__number">
+            <span>02</span>
+            <span></span>
+          </div>
+          <!-- title  -->
+          <h3 class="operations__subtitle">Botox</h3>
+          <div class="operations__desc">
+            Figé ou détendu c'est vous qui choisissez
+          </div>
+          <!-- list -->
+          <ul class="operations__links">
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Rides du front, rides du lion, pattes d’oie</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>
+                  Sourcils tombants
+                </span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>
+                  Bruxisme, mâchoire large (masseters)
+                </span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Transpiration excessive</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>et d’autres</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- bottom  -->
+        <div class="operations__bottom">
+          <a href="#" class="operations__btn">En savoir plus</a>
+        </div>
+      </li>
+      <!-- single -->
+      <li class="operations__item">
+        <!-- top  -->
+        <div class="operations__top">
+          <!-- number  -->
+          <div class="operations__number">
+            <span>03</span>
+            <span></span>
+          </div>
+          <!-- title  -->
+          <h3 class="operations__subtitle">Skinbooster</h3>
+          <div class="operations__desc">
+            Comme son nom l'indique "boost la peau"
+          </div>
+          <!-- list -->
+          <ul class="operations__links">
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Teint terne, peau fatiguée</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Perte d’élasticité</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Prévention du vieillissement cutané</span></a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>et d’autres</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- bottom  -->
+        <div class="operations__bottom">
+          <a href="#" class="operations__btn">En savoir plus</a>
+        </div>
+      </li>
+      <!-- single -->
+      <li class="operations__item">
+        <!-- top  -->
+        <div class="operations__top">
+          <!-- number  -->
+          <div class="operations__number">
+            <span>04</span>
+            <span></span>
+          </div>
+          <!-- title  -->
+          <h3 class="operations__subtitle">Épilation</h3>
+          <div class="operations__desc">
+            Les poils on les garde ou pas
+          </div>
+          <!-- list -->
+          <ul class="operations__links">
+            <li class="operations__link">
+              <a href="#" class="operations__link-item">
+                <span>Epilation laser</span>
+              </a>
+            </li>
+            <li class="operations__link">
+              <a href="#" class="operations__link-item"><span>Épilation électrique</span></a>
+            </li>
+          </ul>
+        </div>
+        <!-- bottom  -->
+        <div class="operations__bottom">
+          <a href="#" class="operations__btn">En savoir plus</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+      <section class="propos">
+  <div class="container">
+    <div class="propos__wrap">
+      <h2 class="propos__title">
+        <span>À propos de</span>
+        <span>SOMA</span>
+      </h2>
+      <!-- block  -->
+      <div class="propos__block">
+        <!-- left  -->
+        <div class="propos__left">
+          <div class="propos__left-img">
+            <img src="img/propos.png">
+          </div>
+          <div class="propos__logo"></div>
+        </div>
+        <!-- right  -->
+        <div class="propos__right">
+          <div class="propos__right-content">
+            <p>
+              SOMA est un cabinet de soins esthétiques situé dans le 11e arrondissement de Paris. Conçu comme un espace
+              de confiance et de bienveillance, il offre une approche sur-mesure, centrée sur l’individu.
+            </p>
+            <p>Le nom SOMA, emprunté au grec ancien, signifie “le corps”. Il évoque aussi cette tension délicate entre
+              le visible et l’invisible, entre le corps et l’esprit. C’est cette dualité que nous prenons en compte :
+              votre apparence, bien sûr, mais aussi votre ressenti, votre histoire, votre équilibre.
+            </p>
+            <p>
+              Ici, chaque soin est personnalisé, dans le respect profond de votre identité, de votre rythme et de vos
+              attentes. Vous
+              êtes accueilli·e comme vous êtes — sans injonction, sans modèle préétabli. Juste vous.
+            </p>
+          </div>
+          <a href="#" class="btn propos__right-btn">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     </div>
 
