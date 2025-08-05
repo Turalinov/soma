@@ -31,12 +31,29 @@
   <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
+
+  <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css" />
+
+  <style>
+    img-comparison-slider {
+      --divider-width: 5px;
+      --divider-color: #C0DDCE;
+      /* --divider-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); */
+      --default-handle-opacity: 1;
+      --handle-position-start: 50%;
+      --handle-position-width: 50px;
+      --default-handle-color: #3A4740;
+    }
+
+
+    img-comparison-slider:focus-visible {
+      outline: none;
+    }
+  </style>
 </head>
 
 <body>
-
-
-
   <div class="wrapper">
     <div class="wrapper__content">
       <!-- перечисливаем все компоненты -->
@@ -72,7 +89,7 @@
           </li>
 
           <li class="menu__item menu-item-has-children">
-            <a href="#" class="menu__link">
+            <a href="traitements.html" class="menu__link">
               Nos traitements
             </a>
 
@@ -1264,6 +1281,21 @@
 
 
 <!-- modals  -->
+
+<div class="modal" id="modal-video">
+  <div class="modal__close">
+    <img src="img/video-close.svg" alt="close button">
+  </div>
+  <div class="modal__content">
+    <div class="modal__inner">
+      <!-- pause -->
+      <div class="modal__video video " data-id="bJ-tDPgzYDY">
+        <div class="video__elem">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="js/bundle.min.js"></script>
