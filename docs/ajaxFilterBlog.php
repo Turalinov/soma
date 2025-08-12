@@ -80,7 +80,7 @@ function ajax_filter_blog() {
                         $categories = get_the_category();
                         if (!empty($categories)) {
                           foreach ($categories as $category) {
-                            echo '<span class="article__meta-item article__tag">' . esc_html($category->name) . '</span>';
+                            echo '<a href="#" class="article__meta-item article__tag">' . esc_html($category->name) . '</a>';
                           }
                         }
 
