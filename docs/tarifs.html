@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tarifs" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/main.min.css">
+
+  <title>Tarifs</title>
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css" />
+
+  <style>
+    img-comparison-slider {
+      --divider-width: 5px;
+      --divider-color: #C0DDCE;
+      /* --divider-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); */
+      --default-handle-opacity: 1;
+      --handle-position-start: 50%;
+      --handle-position-width: 50px;
+      --default-handle-color: #3A4740;
+    }
+
+
+    img-comparison-slider:focus-visible {
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="wrapper__content">
+      <!-- перечисливаем все компоненты -->
+      <header class="header">
+  <div class="container">
+
+    <!-- logo -->
+    <div class="header__logo logo">
+      <a href="index.html" class="logo__link">
+        <picture>
+          <source srcset="img/logo-mobile.svg" media="(max-width: 992px)">
+          <img src="img/logo.svg" alt="Soma" class="logo__img" width="245" height="49">
+        </picture>
+      </a>
+    </div>
+
+
+    <!-- menu dropdown -->
+    <div class="header__dropdown">
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+
+          <li class="menu__item">
+            <a href="propos.html" class="menu__link">
+              La clinique
+            </a>
+          </li>
+
+          <li class="menu__item">
+            <a href="besoins.html" class="menu__link">
+              Vos besoins
+            </a>
+          </li>
+
+          <li class="menu__item menu-item-has-children">
+            <a href="traitements.html" class="menu__link">
+              Nos traitements
+            </a>
+
+            <ul class="sub-menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 1
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 2
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 3
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">
+                  Traitements 4
+                </a>
+              </li>
+            </ul>
+
+          </li>
+          <li class="menu__item">
+            <a href="blog.html" class="menu__link">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a href="tarifs.html" class="menu__link">Tarifs</a>
+          </li>
+          <li class="menu__item">
+            <a href="contact.html" class="menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- menu dropdown end  -->
+
+    <!-- header__toggle  -->
+    <div class="header__toggle toggle">
+      <button class="toggle__inner">
+        скрыть меню
+        <span></span>
+      </button>
+    </div>
+
+    <!-- btns -->
+    <div class="header__btns">
+      <a href="#" class="btn header__btn">
+        Demander un RDV
+      </a>
+    </div>
+
+  </div>
+</header>
+      <div class="breadcrumbs">
+  <div class="container">
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a href="/index.html">Accueil</a>
+      </li>
+      <li class="breadcrumbs__item">
+        Tarifs
+      </li>
+    </ul>
+  </div>
+</div>
+      <section class="tarif">
+  <div class="container">
+    <h1 class="tarif__title">
+      Tarifs – Centre de Médecine Esthétique SOMA
+    </h1>
+  </div>
+
+  <!-- tabs -->
+  <div class="tarif__tabs-inner">
+    <div class="container">
+      <nav class="tarif__tabs">
+        <a href="#epilations-laser" class="tarif__tab current">ÉPILATIONS LASER</a>
+        <a href="#laser-detatouage" class="tarif__tab">Laser détatouage</a>
+        <a href="#electrolyse" class="tarif__tab">Électrolyse</a>
+        <a href="#radiofrequence-morpheus" class="tarif__tab">Radiofréquence / Morpheus</a>
+        <a href="#hydrafacial" class="tarif__tab">Hydrafacial</a>
+        <a href="#led-seule" class="tarif__tab">LED seule</a>
+      </nav>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+
+    <div class="tarif__cards">
+      <!-- card  -->
+      <section class="tarif__card card" id=" epilations-laser">
+        <h3 class="card__title">
+          Épilations laser
+        </h3>
+
+        <div class="card__wrap">
+          <!-- tabs  -->
+          <div class="card__tabs">
+            <button class="card__tab current">Visage</button>
+            <button class="card__tab">Maillot et organes
+              génitaux</button>
+            <button class="card__tab">Corps</button>
+            <button class="card__tab">Membres
+              Supérieurs</button>
+            <button class="card__tab">Membres
+              Supérieurs</button>
+          </div>
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+              <h4 class="pricing__title">Visage</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span>à l'unité</span>
+                <span>8 séances</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Petites zones visage</div>
+                  <div class="pricing__info-desc">Sourcils ou Front ou Pommette ou Oreille ou patte ou menton ou lèvre
+                    supérieure</div>
+                </div>
+                <div class="pricing__price">50€</div>
+                <div class="pricing__price">300€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Bas de visage</div>
+                  <div class="pricing__info-desc">joue + lèvre</div>
+                </div>
+                <div class="pricing__price">120€</div>
+                <div class="pricing__price">720€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage entier</div>
+                  <div class="pricing__info-desc">bas + sourcil + front + oreilles</div>
+                </div>
+                <div class="pricing__price">220€</div>
+                <div class="pricing__price">1320€</div>
+              </div>
+            </section>
+            <section class="card__content pricing">
+              <h4 class="pricing__title">Visage 2</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span>à l'unité</span>
+                <span>8 séances</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Petites zones visage</div>
+                  <div class="pricing__info-desc">Sourcils ou Front ou Pommette ou Oreille ou patte ou menton ou lèvre
+                    supérieure</div>
+                </div>
+                <div class="pricing__price">50€</div>
+                <div class="pricing__price">300€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Bas de visage</div>
+                  <div class="pricing__info-desc">joue + lèvre</div>
+                </div>
+                <div class="pricing__price">120€</div>
+                <div class="pricing__price">720€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage entier</div>
+                  <div class="pricing__info-desc">bas + sourcil + front + oreilles</div>
+                </div>
+                <div class="pricing__price">220€</div>
+                <div class="pricing__price">1320€</div>
+              </div>
+            </section>
+            <section class="card__content pricing">
+              <h4 class="pricing__title">Visage 3</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span>à l'unité</span>
+                <span>8 séances</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Petites zones visage</div>
+                  <div class="pricing__info-desc">Sourcils ou Front ou Pommette ou Oreille ou patte ou menton ou lèvre
+                    supérieure</div>
+                </div>
+                <div class="pricing__price">50€</div>
+                <div class="pricing__price">300€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Bas de visage</div>
+                  <div class="pricing__info-desc">joue + lèvre</div>
+                </div>
+                <div class="pricing__price">120€</div>
+                <div class="pricing__price">720€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage entier</div>
+                  <div class="pricing__info-desc">bas + sourcil + front + oreilles</div>
+                </div>
+                <div class="pricing__price">220€</div>
+                <div class="pricing__price">1320€</div>
+              </div>
+            </section>
+            <section class="card__content pricing">
+              <h4 class="pricing__title">Visage 4</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span>à l'unité</span>
+                <span>8 séances</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Petites zones visage</div>
+                  <div class="pricing__info-desc">Sourcils ou Front ou Pommette ou Oreille ou patte ou menton ou lèvre
+                    supérieure</div>
+                </div>
+                <div class="pricing__price">50€</div>
+                <div class="pricing__price">300€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Bas de visage</div>
+                  <div class="pricing__info-desc">joue + lèvre</div>
+                </div>
+                <div class="pricing__price">120€</div>
+                <div class="pricing__price">720€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage entier</div>
+                  <div class="pricing__info-desc">bas + sourcil + front + oreilles</div>
+                </div>
+                <div class="pricing__price">220€</div>
+                <div class="pricing__price">1320€</div>
+              </div>
+            </section>
+            <section class="card__content pricing">
+              <h4 class="pricing__title">Visage 5</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span>à l'unité</span>
+                <span>8 séances</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Petites zones visage</div>
+                  <div class="pricing__info-desc">Sourcils ou Front ou Pommette ou Oreille ou patte ou menton ou lèvre
+                    supérieure</div>
+                </div>
+                <div class="pricing__price">50€</div>
+                <div class="pricing__price">300€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Bas de visage</div>
+                  <div class="pricing__info-desc">joue + lèvre</div>
+                </div>
+                <div class="pricing__price">120€</div>
+                <div class="pricing__price">720€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage entier</div>
+                  <div class="pricing__info-desc">bas + sourcil + front + oreilles</div>
+                </div>
+                <div class="pricing__price">220€</div>
+                <div class="pricing__price">1320€</div>
+              </div>
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price1.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+      <!-- card  -->
+      <section class="tarif__card card card--two" id="laser-detatouage">
+        <h3 class="card__title">
+          Laser détatouage
+        </h3>
+
+        <div class="card__wrap">
+
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+
+              <div class="pricing__head">
+                <span></span>
+                <span></span>
+                <span>à l’unité</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Petite zone</div>
+                  <div class="pricing__info-desc">(2x2 cm)</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">80€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Moyenne zone</div>
+                  <div class="pricing__info-desc">(5x5 cm)</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">150€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Grande zone</div>
+                  <div class="pricing__info-desc">(10x10 cm)</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">250€</div>
+              </div>
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price2.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+      <!-- card  -->
+      <section class="tarif__card card card--two" id="electrolyse">
+        <h3 class="card__title">
+          Électrolyse
+        </h3>
+
+        <div class="card__wrap">
+
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+
+              <div class="pricing__head">
+                <span></span>
+                <span></span>
+                <span>à l’unité</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Électrolyse 30 min</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">90€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Électrolyse 60 min</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">160€</div>
+              </div>
+
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price3.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+      <!-- card  -->
+      <section class="tarif__card card card--no-desc card--no-center">
+        <h3 class=" card__title">
+          Injections
+        </h3>
+
+        <div class="card__wrap">
+          <!-- tabs  -->
+          <div class="card__tabs">
+            <button class="card__tab current">Botox</button>
+            <button class="card__tab">Acide hyaluronique</button>
+          </div>
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+              <h4 class="pricing__title">Botox</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">1 zone</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">300€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">2 zone</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">400€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">3 zone</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">500€</div>
+              </div>
+
+            </section>
+            <section class="card__content pricing ">
+              <h4 class="pricing__title">Botox 2</h4>
+
+              <div class="pricing__head">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">1 zone</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">300€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">2 zone</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">400€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">3 zone</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">500€</div>
+              </div>
+
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price1.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+      <!-- card  -->
+      <section class="tarif__card card card--two card--no-desc" id="radiofrequence-morpheus">
+        <h3 class=" card__title">
+          Radiofréquence / Morpheus
+        </h3>
+
+        <div class="card__wrap">
+
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+
+              <div class="pricing__head">
+                <span></span>
+                <span></span>
+                <span>à l’unité</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage complet</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">500€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Cou</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">300€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Visage + cou</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">800€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Corps (ventre ou bras)</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">400€</div>
+              </div>
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price3.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+      <!-- card  -->
+      <section class="tarif__card card card--no-desc card--no-first-col" id="hydrafacial">
+        <h3 class="card__title">
+          Hydrafacial
+        </h3>
+
+        <div class="card__wrap">
+
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+              <div class="pricing__head">
+                <span></span>
+                <span>à l’unité</span>
+                <span>pack 3</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Signature</div>
+
+                </div>
+                <div class="pricing__price">150€</div>
+                <div class="pricing__price">400€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Deluxe (LED + boosters)</div>
+                </div>
+                <div class="pricing__price">240€</div>
+                <div class="pricing__price">600€</div>
+              </div>
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Deluxe (LED + boosters)</div>
+                </div>
+                <div class="pricing__price">300€</div>
+                <div class="pricing__price">750€</div>
+              </div>
+
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price1.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+      <!-- card  -->
+      <section class="tarif__card card card--two" id="led-seule">
+        <h3 class="card__title">
+          LED seule
+        </h3>
+
+        <div class="card__wrap">
+
+          <!-- content  -->
+          <div class="card__contents">
+            <section class="card__content pricing current">
+
+              <div class="pricing__head">
+                <span></span>
+                <span></span>
+                <span>à l’unité</span>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">20 min</div>
+
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">40€</div>
+              </div>
+
+              <div class="pricing__row">
+                <div class="pricing__info">
+                  <div class="pricing__info-title">Forfait 6 séances</div>
+                </div>
+                <div class="pricing__price"></div>
+                <div class="pricing__price">220€</div>
+              </div>
+
+            </section>
+          </div>
+          <div class="card__img">
+            <img src="img/price3.png" class="card__img-elem">
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+</section>
+    </div>
+
+    <footer class="footer">
+  <div class="container">
+    <h2 class="footer__title">
+      Nous contacter
+    </h2>
+    <!-- top  -->
+    <div class="footer__top">
+      <!-- 1 -->
+      <div class="footer__elem">
+        <!-- logo  -->
+        <div class="footer__logo">
+          <img src="img/footer-logo.svg">
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="footer__elem">
+        <div class="footer__reservation">
+          <div class="footer__reservation-title">
+            Prendre un rendez-vous
+          </div>
+          <div class="footer__reservation-desc">
+            Réservez votre consultation directement en ligne avec Doctolib
+          </div>
+          <a href="#" class="btn footer__btn">Demander un RDV</a>
+        </div>
+      </div>
+      <div class="footer__elem">
+        <div class="footer__contacts">
+          <!-- item  -->
+          <div class="footer__contacts-item">
+            <div class="footer__contacts-title">
+              Nous appeler
+            </div>
+            <div class="footer__contacts-value">
+              Accueil : <a href="tel:+331234567890">+33 123 45 67 890</a>
+            </div>
+          </div>
+          <!-- item  -->
+          <div class="footer__contacts-item">
+            <div class="footer__contacts-title">
+              Nous envoyer un courriel ou email
+            </div>
+            <div class="footer__contacts-value">
+              Email : <a href="mailto:contact@nomdelaclinique.fr">contact@nomdelaclinique.fr</a>
+            </div>
+          </div>
+          <!-- item  -->
+          <div class="footer__contacts-item">
+            <!-- socials  -->
+            <div class="footer__contacts-socials socials">
+              <div class="socials__title">
+                Réseaux sociaux
+              </div>
+              <ul class="socials__list">
+                <li class="socials__item socials__item--tiktok">
+                  <a href="#" class="socials__link">Tiktok</a>
+                </li>
+                <li class="socials__item socials__item--youtube">
+                  <a href="#" class="socials__link">Youtube</a>
+                </li>
+                <li class="socials__item socials__item--instagram">
+                  <a href="#" class="socials__link">Instagram</a>
+                </li>
+                <li class="socials__item socials__item--linkedin">
+                  <a href="#" class="socials__link">Linkedin</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- bottom  -->
+    <div class="footer__bottom">
+      <!-- 1 -->
+      <div class="footer__bottom-item">
+        <div class="footer__bottom-item-top">
+          <div class="footer__bottom-item-title">
+            Où nous trouver ?
+          </div>
+          <div class="footer__bottom-clinics">
+            Clinique principale
+          </div>
+          <div class="footer__bottom-adresse">
+            123 Rue de l'Esthétique, 75008 Paris<br>Ouvert du lundi au samedi, de 9h à 19h
+          </div>
+        </div>
+        <div class="footer__bottom-item-bottom">
+          <div class="footer__links footer__links--desktop">
+            <a href="politics.html" class="footer__link">Politique de confidentialité</a> |
+            <a href="mentions.html" class="footer__link">Mentions Légales</a> | <br>
+            <a class="footer__link">Tous les droits réservés</a>
+            <a href="https://incrona.com/" class="footer__link footer__link--develop" target="_blank">
+              <span>Agence Web</span>
+              <img src="img/incrona.svg" alt="Incrona" width="79" height="16">
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="footer__bottom-item">
+        <div class="footer__map" id="map">
+          <img src="img/map.png">
+        </div>
+      </div>
+
+      <div class="footer__links footer__links--mobile">
+        <a href="politics.html" class="footer__link">Politique de confidentialité</a> |
+        <a href="mentions.html" class="footer__link">Mentions Légales</a> | <br>
+        <a class="footer__link">Tous les droits réservés</a>
+        <a href="https://incrona.com/" class="footer__link footer__link--develop" target="_blank">
+          <span>Agence Web</span>
+          <img src="img/incrona.svg" alt="Incrona" width="79" height="16">
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+</footer>
+
+</div>
+
+
+<!-- modals  -->
+
+<div class="modal" id="modal-video">
+  <div class="modal__close">
+    <img src="img/video-close.svg" alt="close button">
+  </div>
+  <div class="modal__content">
+    <div class="modal__inner">
+      <!-- pause -->
+      <div class="modal__video video " data-id="bJ-tDPgzYDY">
+        <div class="video__elem">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/bundle.min.js"></script>
+</body>
+
+</html>
