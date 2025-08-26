@@ -50,6 +50,8 @@
       outline: none;
     }
   </style>
+
+
 </head>
 
 <body>
@@ -74,61 +76,751 @@
     <div class="header__dropdown">
       <nav class="header__menu menu">
         <ul class="menu__list">
-
-          <li class="menu__item">
-            <a href="propos.html" class="menu__link">
-              La clinique
-            </a>
-          </li>
-
-          <li class="menu__item">
-            <a href="besoins.html" class="menu__link">
-              Vos besoins
-            </a>
-          </li>
-
-          <li class="menu__item menu-item-has-children">
-            <a href="traitements.html" class="menu__link">
-              Nos traitements
-            </a>
-
-            <ul class="sub-menu">
-              <li class="menu__item">
-                <a href="#" class="menu__link">
-                  Traitements 1
-                </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">
-                  Traitements 2
-                </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">
-                  Traitements 3
-                </a>
-              </li>
-              <li class="menu__item">
-                <a href="#" class="menu__link">
-                  Traitements 4
-                </a>
-              </li>
-            </ul>
-
-          </li>
-          <li class="menu__item">
-            <a href="blog.html" class="menu__link">Blog</a>
-          </li>
-          <li class="menu__item">
-            <a href="tarifs.html" class="menu__link">Tarifs</a>
-          </li>
-          <li class="menu__item">
-            <a href="contact.html" class="menu__link">Contact</a>
-          </li>
+          <li class="menu-item"><a href="propos.html" aria-current="page">La clinique</a></li>
+          <li class="menu-item"><a href="#" class="menu-vos-besoins">Vos besoins</a></li>
+          <li class="menu-item"><a href="#" class="menu-traitements">Nos traitements</a></li>
+          <li class="menu-item"><a href="blog.html">Blog</a></li>
+          <li class="menu-item"><a href="tarifs.html">Tarifs</a></li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <!-- btn -->
+      <a href="#" class="btn header__btn">
+        Demander un RDV
+      </a>
     </div>
     <!-- menu dropdown end  -->
+
+
+    <!-- mobile menu  -->
+    <div class="header__mobile-menu mobile-menu">
+      <!-- первое меню для vos besoins -->
+      <div class="mobile-menu__item  mobile-menu__item--vos-besoins ">
+        <button class="mobile-menu__item-close">
+          Vos besoins
+        </button>
+
+        <!-- contents  -->
+        <div class="mobile-menu__content">
+          <ul class="mobile-menu__content-accordion accordion">
+            <!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li>
+            <!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li><!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li><!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- второе меню для nos traitements -->
+      <div class="mobile-menu__item mobile-menu__item--nos-traitements">
+        <button class="mobile-menu__item-close">
+          Nos traitements
+        </button>
+
+        <!-- contents  -->
+        <div class="mobile-menu__content">
+          <ul class="mobile-menu__content-accordion accordion">
+            <!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li>
+            <!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li><!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li><!-- item  -->
+            <li class="accordion__item">
+              <button class="accordion__control" aria-expanded="false">
+                <span class="accordion__title">
+                  VISAGE
+                </span>
+              </button>
+              <div class="accordion__content" aria-hidden="true">
+                <!-- item  -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                </div>
+
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mobile-menu__content-item">
+                  <div class="mobile-menu__content-item-text">
+                    <div class="mobile-menu__content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mobile-menu__content-item-links">
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mobile-menu__content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 
     <!-- header__toggle  -->
     <div class="header__toggle toggle">
@@ -147,6 +839,976 @@
 
   </div>
 </header>
+<nav class="mega-menu">
+  <div class="container">
+    <!-- первое меню для vos besoins -->
+    <div class="mega-menu__item mega-menu__item--vos-besoins">
+      <div class="mega-menu__inner">
+        <!-- left  -->
+        <div class="mega-menu__left">
+          <!-- tabs  -->
+          <div class="mega-menu__left-tabs">
+            <button class="mega-menu__left-tab current">
+              Visage
+            </button>
+            <button class="mega-menu__left-tab">
+              Silhouette
+            </button>
+            <button class="mega-menu__left-tab">
+              Poils
+            </button>
+          </div>
+          <!-- contents  -->
+          <div class="mega-menu__left-contents">
+            <div class="mega-menu__left-content current">
+
+              <div class="mega-menu__left-content-inner">
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="mega-menu__left-content">
+
+              <div class="mega-menu__left-content-inner">
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      2 Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="mega-menu__left-content">
+
+              <div class="mega-menu__left-content-inner">
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      3 Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- right  -->
+        <div class="mega-menu__right">
+          <div class="mega-menu__right-img">
+            <img src="img/mega-menu-bg.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- второе меню для nos traitements -->
+    <div class="mega-menu__item mega-menu__item--nos-traitements">
+      <div class="mega-menu__inner">
+        <!-- left  -->
+        <div class="mega-menu__left">
+          <!-- tabs  -->
+          <div class="mega-menu__left-tabs">
+            <button class="mega-menu__left-tab current">
+              Visage
+            </button>
+            <button class="mega-menu__left-tab">
+              Silhouette
+            </button>
+            <button class="mega-menu__left-tab">
+              Poils
+            </button>
+          </div>
+          <!-- contents  -->
+          <div class="mega-menu__left-contents">
+            <div class="mega-menu__left-content current">
+
+              <div class="mega-menu__left-content-inner">
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="mega-menu__left-content">
+
+              <div class="mega-menu__left-content-inner">
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      2 Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="mega-menu__left-content">
+
+              <div class="mega-menu__left-content-inner">
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      3 Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajoues</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Double menton</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutanévale du visage
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Bajouesouble menton
+                        </span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Redessiner le cou</span><span>Best-seller</span>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- item -->
+                <div class="mega-menu__left-content-item">
+                  <div class="mega-menu__left-content-item-text">
+                    <div class="mega-menu__left-content-item-title">
+                      Bas du visage & mâchoire
+                    </div>
+                    <div class="mega-menu__left-content-item-links">
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Vieillissement cutané</span><span>Best-seller</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Relâchement cutané</span>
+                      </a>
+                      <a href="#" class="mega-menu__left-content-item-link">
+                        <span>Ovale du visage</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- right  -->
+        <div class="mega-menu__right">
+          <div class="mega-menu__right-img">
+            <img src="img/mega-menu-bg.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
       <div class="breadcrumbs">
   <div class="container">
     <ul class="breadcrumbs__list">
@@ -243,7 +1905,7 @@
                 Extraction manuelle des impuretés et comédons, idéal pour les peaux à tendance acnéique ou
                 congestionnées.
               </div>
-              <a class="btn traitement__link">En savoir plus</a>
+              <a href="https://google.com" class="btn traitement__link">En savoir plus</a>
             </div>
             <!-- inner item -->
             <div class="traitement__variant">
@@ -1286,7 +2948,7 @@
             Clinique principale
           </div>
           <div class="footer__bottom-adresse">
-            123 Rue de l'Esthétique, 75008 Paris<br>Ouvert du lundi au samedi, de 9h à 19h
+            72 B RUE DE LA FOLIE-REGNAULT 75011 PARIS<br>Ouvert du lundi au samedi, de 9h à 19h
           </div>
         </div>
         <div class="footer__bottom-item-bottom">
@@ -1305,7 +2967,7 @@
       <!-- 2 -->
       <div class="footer__bottom-item">
         <div class="footer__map" id="map">
-          <img src="img/map.png">
+
         </div>
       </div>
 
@@ -1343,7 +3005,24 @@
     </div>
   </div>
 </div>
+<script>
+  function initMap() {
+    const coords = { lat: 48.8615449, lng: 2.3835768 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 14,
+      center: coords,
+    });
 
+    new google.maps.Marker({
+      position: coords,
+      map: map,
+      // title: "Мы здесь!",
+    });
+  }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQSKdIAaUP4UYrbcu1ZjRgqIbXw0OgDfo&callback=initMap" async
+  defer></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="js/bundle.min.js"></script>
 </body>
